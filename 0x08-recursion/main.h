@@ -12,3 +12,6 @@ int square_root(int i, int j);
 int divisibility(int n, int dv);
 int palindrome_check(char *s, int len, int num);
 int string_length(char *s);
+char *postfix_match(char *s, char *pstfix);
+void iterate_wild(char **str);
+int strlen_no_wilds(char *s);
