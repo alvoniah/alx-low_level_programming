@@ -10,3 +10,5 @@ int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int square_root(int i, int j);
 int divisibility(int n, int dv);
+int palindrome_check(char *s, int len, int num);
+int string_length(char *s);
