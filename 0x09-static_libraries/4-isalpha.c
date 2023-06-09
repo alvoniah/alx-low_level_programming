@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _isaplha - determines if input is the letter
+ * _isalpha - determines if input is the letter
  * @c: ASCII code character
  * Return: 1 otherwise 0
  */
