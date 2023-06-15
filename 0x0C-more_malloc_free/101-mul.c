@@ -145,7 +145,7 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
 	for (; next_len >= 0 && *next_prod != 'x'; next_len--)
 	{
 		num = (*next_prod - '0');
-		nu += tens;
+		num += tens;
 		*final_prod = (num % 10) + '0';
 		tens = num / 10;
 
