@@ -13,5 +13,5 @@ int op_mul(int a, int b);
 int op_div(int a, int b);
 int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
-int main(int argc, char *argv[]);
+int main(int __attribute__((__unused__)) argc, char *argv[]);
 #endif
