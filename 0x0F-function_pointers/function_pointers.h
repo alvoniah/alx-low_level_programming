@@ -1,7 +1,8 @@
 #ifndef _FUNCTION_POINTERS_
 #define _FUNCTION_POINTERS_
-
+#include <stdio.h>
 #include <stdlib.h>
+#include <stddef.h>
 
 int _putchar(char c);
 void print_name(char *name, void (*f)(char *));
@@ -13,5 +14,4 @@ int op_mul(int a, int b);
 int op_div(int a, int b);
 int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
-int main(int __attribute__((__unused__)) argc, char *argv[]);
 #endif
