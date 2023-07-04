@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
  * find_listint_loop - finds the loop list
- * @head: the head of the list
- * Return: the address of the node
+ * @head: head of the list
+ * Return: the address of the node where
  */
 listint_t *find_listint_loop(listint_t *head)
 {
@@ -35,5 +35,6 @@ listint_t *find_listint_loop(listint_t *head)
 			return (p2->next);
 		}
 	}
+
 	return (NULL);
-}	
+}
